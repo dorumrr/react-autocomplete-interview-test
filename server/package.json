@@ -4,7 +4,7 @@
   "description": "Simple API",
   "main": "api.js",
   "scripts": {
-    "start": "node api.js",
+    "start": "pm2 start api.js --watch --name=APIpgdemo",
     "dev": "nodemon api.js"
   },
   "author": "Doru Moraru",
