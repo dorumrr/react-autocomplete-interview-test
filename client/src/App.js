@@ -25,7 +25,7 @@ export default function App() {
         </Typography>
         <Typography paragraph variant="body2" color="textSecondary">
           Hosted on a <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://www.ovh.co.uk/vps/">private VPS</a> powered by:<br />
-          <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://ubuntu.com/server">Ubuntu Server 18.04</a>, <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="http://httpd.apache.org/">Apache v2.4</a>, <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://nodejs.org/en/">node 12</a>
+          <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://ubuntu.com/server">Ubuntu Server 18.04</a>, <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="http://httpd.apache.org/">Apache v2.4</a>, <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://letsencrypt.org/">SSL</a>
         </Typography>
         <Typography variant="subtitle2" color="textPrimary">
           Full code available on <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://github.com/dorumrr/autocomplete-doru-uk">Github</a>.
