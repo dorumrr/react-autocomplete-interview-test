@@ -12,7 +12,7 @@ export default function Autocomplete(props) {
   const [error, setError] = useState(null);
   const getData = async query => {
     try {
-      const apiCall = await fetch(`${process.env.REACT_APP_APIURL}/${query}`);
+      const apiCall = await fetch(`${process.env.REACT_APP_APIURL}`);
       if (apiCall.status >= 400) setError('Bad response from server');
       const response = await apiCall.json();
       setSuggestions(response.data);
