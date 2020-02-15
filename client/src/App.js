@@ -23,7 +23,7 @@ export default function App() {
           Backend: {backend.map((link, i) => <span key={i}><a target="_blank" rel="noopener noreferrer" className="mid-opacity" href={link.url}>{link.name}</a>{!link.last && ', '}</span>)}
         </Typography>
         <Typography paragraph variant="body2" color="textSecondary">
-          Hosted on a <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://www.ovh.co.uk/vps/">private VPS</a> powered by:<br/>
+          Hosted on a <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://www.ovh.co.uk/vps/">private VPS</a> powered by:<br />
           <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://ubuntu.com/server">Ubuntu Server 18.04</a>, <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="http://httpd.apache.org/">Apache v2.4</a>, <a target="_blank" rel="noopener noreferrer" className="mid-opacity" href="https://nodejs.org/en/">node 12</a>
         </Typography>
         <Typography variant="subtitle2" color="textPrimary">
