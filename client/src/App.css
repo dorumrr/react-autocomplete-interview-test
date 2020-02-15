@@ -1,0 +1,11 @@
+.info {
+  margin-bottom: 10px;
+}
+.mid-opacity, .mid-opacity:visited {
+  color: #0000FF;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.mid-opacity:hover, .mid-opacity:focus {
+  text-decoration: underline;
+}
